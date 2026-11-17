@@ -1,0 +1,3 @@
+html { scroll-behavior: smooth; }
+ section { scroll-margin-top: 70px; }
+.slide { height: 70vh; min-height: 360px; }

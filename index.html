@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLP107 | Web Tasarımının Temelleri</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f3f5;
+            color: #222;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        header {
+            background-color: #252b35;
+            color: white;
+            padding: 45px 30px;
+            border-radius: 12px;
+            margin-bottom: 35px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            color: #cbd0d8;
+            line-height: 1.6;
+        }
+
+        .aciklama {
+            margin-bottom: 30px;
+            line-height: 1.7;
+        }
+
+        .aciklama h2 {
+            margin-bottom: 12px;
+        }
+
+        .calismalar {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 18px;
+        }
+
+        .kart {
+            background-color: white;
+            padding: 22px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #222;
+            border: 1px solid #ddd;
+            transition: 0.2s;
+        }
+
+        .kart:hover {
+            border-color: #ff6b35;
+            transform: translateY(-4px);
+        }
+
+        .kart span {
+            color: #ff6b35;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .kart h3 {
+            margin-top: 10px;
+            font-size: 17px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .calismalar {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>BLP107 | Web Tasarımı</h1>
+            <p>Dönem Boyunca Yapılan Çalışmalar | Koray SARI</p>
+        </header>
+
+        <section class="aciklama">
+            <h2>Hoş Geldiniz</h2>
+            <p>
+                Bu web sitesi, BLP107 Web Tasarımı dersi kapsamında
+                dönem boyunca gerçekleştirilen uygulamaları ve
+                çalışmaları bir araya getirmek amacıyla hazırlanmıştır.
+                Aşağıdaki bağlantılardan haftalık çalışmalara
+                ulaşabilirsiniz.
+            </p>
+        </section>
+
+        <h2 style="margin-bottom: 18px;">Haftalık Çalışmalar</h2>
+
+        <section class="calismalar">
+
+            <a href="onemli_kelimelerin_anlamlari/index.html" class="kart">
+                <span>2. HAFTA ÖDEVİ</span>
+                <h3>Önemli Kelimelerin Anlamları</h3>
+            </a>
+
+            <a href="html_taglari_ve_etiketleri/index.html" class="kart">
+                <span>2. HAFTA ÖDEVİ</span>
+                <h3>HTML Tagları ve Etiketleri</h3>
+            </a>
+
+            <a href="hafta3/index.html" class="kart">
+                <span>3. HAFTA</span>
+                <h3>Sayfalar Arası Bağlantı Oluşturma ve Görsel Ekleme</h3>
+            </a>
+
+            <a href="kedolar/index.html" class="kart">
+                <span>4. HAFTA ÖDEVİ</span>
+                <h3>Kediler Hakkında Bilgi</h3>
+            </a>
+
+            <a href="hafta4/index.html" class="kart">
+                <span>4. HAFTA</span>
+                <h3>Sayfa İçi CSS Kullanımı</h3>
+            </a>
+
+            <a href="hafta5/Teknoloji_rehberi/index.html" class="kart">
+                <span>5. HAFTA</span>
+                <h3>Harici CSS ile Tüm Sayfalara Stil Uygulama</h3>
+            </a>
+
+            <a href="hafta6/index.html" class="kart">
+                <span>6. HAFTA</span>
+                <h3>Görsellere CSS Uygulama</h3>
+            </a>
+
+            <a href="garaj_35/garaj_35/index.html" class="kart">
+                <span>6. HAFTA ÖDEVİ</span>
+                <h3>Garaj 35</h3>
+            </a>
+
+            <a href="hafta7/index.html" class="kart">
+                <span>7. HAFTA</span>
+                <h3>DIV ve ID Kullanımı</h3>
+            </a>
+
+            <a href="hafta8/index.html" class="kart">
+                <span>8. HAFTA</span>
+                <h3>Bootstrap Kullanımı Uygulama 1</h3>
+            </a>
+
+            <a href="hafta8/index2.html" class="kart">
+                <span>8. HAFTA</span>
+                <h3>Bootstrap Kullanımı Uygulama 2</h3>
+            </a>
+        </section>
+
+        <footer>
+            BLP107 Web Tasarımı | 2026-2027 Eğitim Öğretim Yılı
+        </footer>
+
+    </div>
+
+</body>
+</html>
