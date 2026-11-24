@@ -1,0 +1,48 @@
+:root {
+    --kafe-renk: #6f4e37;
+    --kafe-koyu: #593e2c;
+  }
+  
+  .bg-kafe {
+    background-color: var(--kafe-renk);
+  }
+  
+  /* Ana sayfa görseli (internetten bağlanır); yüklenmezse kahverengi zemin görünür */
+  .hero {
+    min-height: 75vh;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://images.unsplash.com/photo-1422056244210-46cc641fb1fe?auto=format&fit=crop&w=1600&q=70") center / cover no-repeat,
+      var(--kafe-koyu);
+  }
+  
+  .sayfa-baslik {
+    background-color: var(--kafe-renk);
+  }
+  
+  .urun-gorsel,
+  .galeri-gorsel {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    background-color: #e9dfd6;
+  }
+  
+  .galeri-gorsel {
+    width: 100%;
+  }
+  
+  .btn-kafe {
+    background-color: var(--kafe-renk);
+    border-color: var(--kafe-renk);
+    color: #fff;
+  }
+  
+  .btn-kafe:hover {
+    background-color: var(--kafe-koyu);
+    border-color: var(--kafe-koyu);
+    color: #fff;
+  }
+  
+  footer small {
+    letter-spacing: 0.5px;
+  }
